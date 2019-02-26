@@ -1,0 +1,65 @@
+view.user-info {
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+text.hint {
+    font-size: 80%;
+    padding: 0 10px 0 10px;
+    text-align: center;
+    color: #d82929;
+}
+
+image.hidden {
+    visibility: hidden;
+}
+
+view.user-info>image {
+    width: 384rpx;
+    height: 384rpx;
+    border-radius: 192rpx;
+    background-color: #999;
+}
+
+view.user-info>text {
+    font-size: 100%;
+    color: #999;
+    padding: 10rpx;
+}
+
+view.user-info>.name {
+    font-size: 150%;
+    color: initial;
+    margin-top: 100rpx;
+}
+
+view.buttons {
+    align-self: flex-end;
+    padding: 20rpx 0rpx;
+    text-align: center;
+}
+
+view.buttons>button {
+    width: calc(100% - 40rpx);
+}
+
+page {
+    height: 100%;
+}
+
+view {
+    display: flex;
+}
+
+view.root {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+view.sub {
+    width: 100%;
+}

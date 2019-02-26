@@ -1,0 +1,22 @@
+{
+    "pages": [
+        "pages/welcome",
+        "pages/login/login",
+        "pages/step-validate/index",
+        "pages/step-confirm/index",
+        "pages/success/success"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "学生人脸识别报到系统",
+        "navigationBarTextStyle": "black"
+    },
+    "networkTimeout": {
+        "request": 60000,
+        "connectSocket": 60000,
+        "uploadFile": 60000,
+        "downloadFile": 60000
+    },
+    "debug": false
+}

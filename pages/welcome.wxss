@@ -1,0 +1,44 @@
+view.app-info {
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+view.app-info>.name {
+    margin-top: 100rpx;
+    font-size: 180%;
+}
+
+view.app-info>image {
+    max-width: 384rpx;
+}
+
+view.buttons {
+    align-self: flex-end;
+    padding: 20rpx 0rpx;
+    text-align: center;
+}
+
+view.buttons>button {
+    width: calc(100% - 40rpx);
+}
+
+page {
+    height: 100%;
+}
+
+view {
+    display: flex;
+}
+
+view.root {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+view.sub {
+    width: 100%;
+}

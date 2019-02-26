@@ -1,0 +1,10 @@
+<view class="root">
+    <view class="sub app-info">
+        <image mode="aspectFit" src="resources/faced_logo.png"></image>
+        <text class="name">学生人脸识别报到系统</text>
+        <text class="name">超级无敌破解版</text>
+    </view>
+    <view class="sub buttons {{isPhoneX?'fix':''}}">
+        <button bindgetuserinfo="onGotUserInfo" openType="getUserInfo">马上报到</button>
+    </view>
+</view>

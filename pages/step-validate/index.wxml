@@ -1,0 +1,22 @@
+<view class="root">
+    <camera binderror="error" devicePosition="front" flash="auto">
+        <cover-view class="cover">
+            <cover-view class="hint {{button_active}}">录制过程中，请保持脸在图示框中</cover-view>
+            <cover-image class="protrait" src="VideoProtrait.png"></cover-image>
+        </cover-view>
+    </camera>
+    <view class="control">
+        <view>
+            <text>单击开始按钮后，4s内匀速朗读下面的4个数字</text>
+            <view class="codes">
+                <block wx:for="{{codes}}" wx:for-item="c" wx:key="*this">
+                    <view class="code-block">{{c}}</view>
+                </block>
+            </view>
+        </view>
+        <view bindtap="start" style="position: relative;">
+            <image class="protrait" mode="widthFix" style="height:200px;width:200px;" src="{{button_image}}"></image>
+            <text class="timer {{button_active}}" style="font-size: 100%;">{{timer||'开始'}}</text>
+        </view>
+    </view>
+</view>

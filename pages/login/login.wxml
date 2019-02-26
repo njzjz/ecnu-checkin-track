@@ -1,0 +1,27 @@
+<view class="root">
+    <view class="com" style="margin-bottom: 20rpx">
+        <text class="hint">请使用公共数据库账号密码登陆</text>
+    </view>
+    <view class="container">
+        <view class="com">
+            <view class="item item-label">
+                <text class="name" decode="{{true}}">学号</text>
+            </view>
+            <view class="item">
+                <input bindinput="username" placeholder="请输入学号" value="{{number}}"></input>
+            </view>
+        </view>
+        <view class="com">
+            <view class="item item-label">
+                <text class="name" decode="{{true}}">密码</text>
+            </view>
+            <view class="item">
+                <input bindinput="password" password="true" placeholder="请输入公共数据库密码" value="{{password}}"></input>
+            </view>
+        </view>
+    </view>
+    <view class="btn {{isPhoneX?'fix':''}}">
+        <button bindtap="begin" style="color: white; background-color: #ad1d32">登录</button>
+        <button bindtap="cancel">取消</button>
+    </view>
+</view>

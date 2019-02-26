@@ -1,0 +1,56 @@
+image {
+    height: 80rpx;
+    width: 160rpx;
+    vertical-align: middle;
+}
+
+.com input {
+    border: none;
+    padding: 10px;
+}
+
+.container .com {
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.com {
+    display: flex;
+    align-items: center;
+}
+
+.root {
+    padding: 10px;
+}
+
+.item-label {
+    width: 160rpx;
+    min-width: 160rpx;
+    max-width: 160rpx;
+}
+
+.name {
+    white-space: nowrap;
+    margin-right: 30rpx;
+    margin-left: 20rpx;
+}
+
+.hint {
+    font-size: 15px;
+    margin-left: 20rpx;
+    color: #b7b3b3;
+}
+
+.btn button {
+    width: calc(100% - 20rpx);
+    margin-top: 20rpx;
+}
+
+.btn {
+    position: absolute;
+    bottom: 20rpx;
+    width: calc(100% - 40rpx);
+}
+
+.btn.fix {
+    bottom: 68rpx;
+}

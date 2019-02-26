@@ -1,0 +1,6 @@
+<view class="root">
+    <view class="sub app-info">
+        <image mode="aspectFit" src="../resources/success.png"></image>
+        <text class="name">您已成功报到！</text>
+    </view>
+</view>

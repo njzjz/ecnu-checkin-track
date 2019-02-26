@@ -1,0 +1,80 @@
+page,view.root {
+    height: 100%;
+}
+
+view.root>camera {
+    height: 66%;
+}
+
+.cover,.protrait {
+    height: 100%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+cover-view .protrait {
+    height: 90%;
+    width: 90%;
+    margin-top: 5%;
+}
+
+cover-view.hint.active {
+    display: none;
+}
+
+cover-view.hint {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 40%;
+    font-size: 110%;
+    color: white;
+}
+
+view.control {
+    background-color: #000;
+    text-align: center;
+    padding-top: 30rpx;
+    padding-bottom: 50rpx;
+    color: #fff;
+    height: 30%;
+}
+
+view.control text {
+    font-size: 100%;
+}
+
+view.control image.protrait {
+    width: 150rpx;
+}
+
+text.timer {
+    color: #999;
+    line-height: 150rpx;
+    position: absolute;
+    width: 100rpx;
+    text-align: center;
+    left: calc(50% - 50rpx);
+}
+
+view.codes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 150rpx;
+    padding-bottom: 20rpx;
+    margin: 20rpx 0;
+}
+
+view.code-block {
+    width: 80rpx;
+    height: 80rpx;
+    background-color: #eee;
+    color: #000;
+    font-size: 150%;
+    line-height: 80rpx;
+}
+
+text.active {
+    color: #fff;
+}

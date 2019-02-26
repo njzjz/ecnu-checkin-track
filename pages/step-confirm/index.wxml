@@ -1,0 +1,13 @@
+<view class="root">
+    <view class="sub user-info">
+        <image bindload="imgLoaded" class="{{imgShow?'':'hidden'}}" mode="aspectFill" src="{{userInfo.portrait}}"></image>
+        <text class="name">{{userInfo.name||''}}</text>
+        <text class="">{{userInfo.number||''}}</text>
+        <text class="">{{userInfo.institute||''}}</text>
+        <text class="">{{userInfo.department||''}}</text>
+    </view>
+    <text bindtap="hint" class="hint">不是本人，更换信息</text>
+    <view class="sub buttons {{isPhoneX?'fix':''}}">
+        <button bindtap="register">马上验证</button>
+    </view>
+</view>
